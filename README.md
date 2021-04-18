@@ -182,6 +182,8 @@ by Jim Dennis on Stack Overflow
 
 - [All the right moves](https://vim.fandom.com/wiki/All_the_right_moves)
 
+- [Seven habits of effective text editing](https://www.moolenaar.net/habits.html) by Bram Moolenaar
+
 # Write Plugins
 
 Vim is very extensible and provides tons of APIs to write custom plugins to
