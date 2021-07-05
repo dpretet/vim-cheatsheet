@@ -69,9 +69,6 @@ Finally, the search command is a powerfull method to move across the buffer:
     ;    repeat above, in same direction
     ,    repeat above, in reverse direction
 
-[Vim-Sneak](https://github.com/justinmk/vim-sneak) is a nice add-on to Vim,
-close to f/F/t/T but using two characters. Definitly deserve a try!
-
 Treat yourself! To learn vim, loose the habit to use arrow keys in normal mode:
 
 ```vim
@@ -165,8 +162,9 @@ You can also combine with search command:
 
 g is an important Vim command, learn it to unleash your flow:
 
-    ge      move to end of previous word
+    ge      Move to end of previous word
     gq      Wrap selected text to match to max line length
+    gf      Open file name under the cursor
 
 
 # Misc.
@@ -183,6 +181,8 @@ by Jim Dennis on Stack Overflow
 - [All the right moves](https://vim.fandom.com/wiki/All_the_right_moves)
 
 - [Seven habits of effective text editing](https://www.moolenaar.net/habits.html) by Bram Moolenaar
+
+- [Vim Regex](http://vimregex.com/)
 
 # Write Plugins
 
