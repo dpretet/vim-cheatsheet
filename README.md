@@ -47,20 +47,27 @@ Ctrl key can also be used, but here to move the screen:
             ctags file (could be remapped to ctrl-t with `nmap <C-T> <C-]>`)
 
 Ctrl-i & Ctrl-o can be used to move between buffers, if you jumped to a new
-one with edit command or with tags
+one with edit command or with tags.
 
-Finally, the search command is a powerfull method to move across the buffer:
+The search command is a powerfull method to move across the buffer:
 
-    /foo search for next 'foo' pattern
-    ?foo search for previous 'foo' pattern
-    n    next matching search pattern
-    N    previous matching search pattern
-    *    next whole word under cursor
-    #    previous whole word under cursor
-    g*   next matching search (not whole word) pattern under cursor
-    g#   previous matching search (not whole word) pattern under cursor
-    gd   go to definition/first occurrence of the word under cursor
-    %    jump to matching bracket { } [ ] ( )
+    /foo    search for next 'foo' pattern
+    ?foo    search for previous 'foo' pattern
+    ctrl-g  jumps to the next occurrence of the pattern (if didn't hit enter)
+    ctrl-t  jumps to the previous occurrence (if didn't hit enter)
+    n       next matching search pattern
+    N       previous matching search pattern
+
+Another easy ways to search for a word:
+
+    *       next whole word under cursor
+    #       previous whole word under cursor
+    g*      next matching search (not whole word) pattern under cursor
+    g#      previous matching search (not whole word) pattern under cursor
+    gd      go to definition/first occurrence of the word under cursor
+    %       jump to matching bracket { } [ ] ( )
+
+t/f keys are great to navigate into a line:
 
     fX   to next 'X' after cursor, in the same line (X is any character)
     FX   to previous 'X' before cursor (f and F put the cursor on X)
