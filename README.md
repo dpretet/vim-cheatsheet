@@ -68,6 +68,12 @@ Finally, the search command is a powerfull method to move across the buffer:
     TX   til previous 'X'
     ;    repeat above, in same direction
     ,    repeat above, in reverse direction
+    
+Vim embeds a bookmark system, pretty handy to use:
+    
+    m {a-z A-Z}      Set bookmark {a-z A-Z} at the current cursor position
+    `{a-z A-Z}       Jumps to the bookmark {a-z A-Z}
+    :marks           List all bookmarks
 
 Treat yourself! To learn vim, loose the habit to use arrow keys in normal mode:
 
