@@ -178,6 +178,7 @@ g is an important Vim command, learn it to unleash your flow:
     ge      Move to end of previous word
     gq      Wrap selected text to match to max line length
     gf      Open file name under the cursor
+    gF      Open file name under the cursor and jump to the line number following the filename  
 
 
 # Misc.
