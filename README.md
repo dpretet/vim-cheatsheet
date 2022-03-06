@@ -75,9 +75,9 @@ t/f keys are great to navigate into a line:
     TX   til previous 'X'
     ;    repeat above, in same direction
     ,    repeat above, in reverse direction
-    
+
 Vim embeds a bookmark system, pretty handy to use:
-    
+
     m {a-z A-Z}      Set bookmark {a-z A-Z} at the current cursor position
     `{a-z A-Z}       Jumps to the bookmark {a-z A-Z}
     :marks           List all bookmarks
@@ -178,10 +178,22 @@ g is an important Vim command, learn it to unleash your flow:
     ge      Move to end of previous word
     gq      Wrap selected text to match to max line length
     gf      Open file name under the cursor
-    gF      Open file name under the cursor and jump to the line number following the filename  
+    gF      Open file name under the cursor and jump to the line number following the filename
+
+[Here is](https://dev.to/iggredible/discovering-vim-global-command-49ad) a link demonstrating
+the power of g command.
 
 
 # Misc.
+
+- Vim can open a file at a specific line, for instance at line 49: `vim file.cpp +49`
+
+- Dot command is a powerful dark magic. After executing an action, press `.` to repeat it multiples
+  times, as a word replacement at several places.
+
+- `ctrl x/a` increments/decrements a number under the cursor
+
+- Vim can open an archive to edit the files inside
 
 - Interesting
 [answer](https://gist.github.com/dpretet/7ab642f06dfbcdd9972cf94be9ea0033)
@@ -197,6 +209,7 @@ by Jim Dennis on Stack Overflow
 - [Seven habits of effective text editing](https://www.moolenaar.net/habits.html) by Bram Moolenaar
 
 - [Vim Regex](http://vimregex.com/)
+
 
 # Write Plugins
 
